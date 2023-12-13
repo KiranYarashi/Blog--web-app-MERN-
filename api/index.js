@@ -13,7 +13,7 @@ const fs = require('fs');
 
 const salt = bcrypt.genSaltSync(10);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://kiran:PPfAMjrWQdJksXVL@cluster0.jy6ttl6.mongodb.net/?retryWrites=true&w=majority';
 const SECRET_KEY = process.env.SECRET_KEY || 'asdfe45we45w345wegw345werjktjwertkj';
 
