@@ -14,13 +14,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
-"scripts": {
+ "scripts": {
     "build:backend": "cd api && yarn install && yarn build",
     "start:backend": "node api/index.js",
-    "build:frontend": "cd client && yarn install && yarn build",
-    "start:frontend": "cd client && yarn start",
-    "start": "cd client && yarn start",
-    "build": "cd client && yarn install && yarn build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "vercel-build": "cd client && yarn install && yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
