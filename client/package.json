@@ -17,7 +17,7 @@
  "scripts": {
   "build:backend": "cd api && yarn install && yarn build",
   "start:backend": "node api/index.js",
-  "build:frontend": "cd client && yarn install && yarn build",
+  "build:frontend": " yarn install && yarn build",
   "start:frontend": "cd client && yarn start",
   "start": "concurrently \"yarn start:backend\" \"yarn start:frontend\"",
   "build": "yarn build:backend && yarn build:frontend",
